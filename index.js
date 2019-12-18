@@ -1,7 +1,12 @@
-function takeANumber(katzDeliLine, name){
-  katzDeliLine.push(name);
-  return ("Welcome, "+name+". You are number "+(katzDeliLine.length)+" in line.");
+<<<<<<< HEAD
+var x = 1
+function takeANumber(katzDeliLine){
+
+  return ("Welcome! You are number "+(katzDeliLine.length+1) +" in line
 }
+
+
+
 
 function nowServing(katzDeliLine){
   if(katzDeliLine.length === 0){
@@ -22,4 +27,10 @@ function currentLine(katzDeliLine){
       comma = ",";
     }
     return text;
+=======
+function takeANumber(currentLine, name){
+  console.log(name);
+  currentLine.push("Welcome, "+name+". You are number "+(currentLine.length+1)+" in line.");
+  return currentLine;
+>>>>>>> ae9c079dc19e9b91adcc6194e8f84fd718be6d18
 }
